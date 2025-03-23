@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b9ac17d-8e6a-4744-937b-c2d5c78344f8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Design Patterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/Duck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/FlyBehaviour.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/FlyWithRocket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/FlyWithWings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/MallardDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/NoFly.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/QuackBehavior.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/QuackLoud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/RocketDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/RubberDuck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern/SilentQuack.java" afterDir="false" />
-    </list>
+    <list default="true" id="1b9ac17d-8e6a-4744-937b-c2d5c78344f8" name="Changes" comment="&quot;starategy&quot;" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +66,42 @@
       <option name="presentableId" value="Default" />
       <updated>1740570637077</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;starategy&quot;">
+      <created>1742752246726</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1742752246726</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;starategy&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;starategy&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
