@@ -1,0 +1,67 @@
+Why do we need a Factory Design Pattern? (Interview Answer)
+The Factory Design Pattern is used to create objects without exposing the instantiation logic to the client and provides a way to delegate the responsibility of object creation to a centralized factory class.
+
+Key Reasons to Use Factory Pattern:
+Encapsulation of Object Creation
+
+The client does not need to know the exact class name or how objects are created.
+
+Instead of using new everywhere, we call ShapeFactory.create("Circle").
+
+Loose Coupling & Scalability
+
+The client code depends on an interface (Shape) rather than specific implementations (Circle, Square).
+
+If a new shape (e.g., Triangle) needs to be added, we only modify the factory, not every part of the code where shapes are created.
+
+Improved Maintainability
+
+Centralized object creation makes maintenance easier.
+
+No need to modify existing code when adding new classes.
+
+Enhances Code Readability & Reusability
+
+All object creation logic is in one place (Factory), making code more structured and reusable.
+
+Supports Dynamic Object Creation
+
+The object type can be determined at runtime based on user input or configurations.
+
+Example - Without Factory vs. With Factory
+❌ Without Factory (Tightly Coupled)
+java
+Copy
+Edit
+Shape shape = new Circle();  // Direct instantiation
+shape.draw();
+Problem: If we need a Square, we have to manually change new Circle() to new Square() everywhere.
+
+✅ With Factory (Loosely Coupled)
+java
+Copy
+Edit
+Shape shape = ShapeFactory.create("Circle");  // Factory handles object creation
+shape.draw();
+Advantage: We can change the shape dynamically without modifying the main logic.
+
+Follow-up Interview Questions:
+How does the Factory Pattern follow the Open/Closed Principle?
+✅ Answer: New shapes can be added without modifying existing code, only by updating the factory.
+
+Can we use Factory Pattern with Singleton or Lazy Initialization?
+✅ Answer: Yes, we can optimize it by caching instances or ensuring a single object creation.
+
+How does Factory Pattern differ from Abstract Factory Pattern?
+✅ Answer: Factory Pattern creates one family of objects (e.g., Shapes). Abstract Factory manages multiple related factories (e.g., ShapeFactory, ColorFactory).
+
+Summary - Key Points for Interview:
+Encapsulates object creation ✅
+
+Promotes loose coupling & scalability ✅
+
+Follows Open/Closed Principle ✅
+
+Makes maintenance & testing easier ✅
+
+Supports dynamic object creation ✅
