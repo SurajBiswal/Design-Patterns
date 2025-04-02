@@ -1,0 +1,61 @@
+📌 Flow of Abstract Factory Pattern
+Step 1: Define Interfaces
+
+Define an interface for each product type (e.g., Shape, Color).
+
+This ensures multiple concrete classes can implement them.
+
+Step 2: Implement Concrete Classes
+
+Create different implementations for each product (e.g., Circle, Square, Red, Blue).
+
+Each concrete class provides its specific implementation.
+
+Step 3: Create Abstract Factory
+
+Define an abstract factory class (AbstractFactory) that declares methods for creating different product types.
+
+Step 4: Implement Concrete Factories
+
+Implement specific factory classes (ShapeFactory, ColorFactory) that extend the abstract factory and create related objects.
+
+Step 5: Create Factory Producer
+
+Implement a FactoryProducer class that returns the appropriate factory based on the user’s request.
+
+Step 6: Client Code
+
+The client (main program) calls the FactoryProducer, retrieves the correct factory, and requests object creation.
+
+The client does not need to know which concrete class is being instantiated.
+
+🛠 Flowchart of Abstract Factory Pattern
+
+
+Client (Main Class)
+    ↓
+FactoryProducer (Decides which factory to return)
+    ↓
+AbstractFactory (Defines methods for creating objects)
+    ├── ShapeFactory (Creates Shape objects)
+    │      ├── Circle (Implements Shape)
+    │      ├── Square (Implements Shape)
+    │
+    ├── ColorFactory (Creates Color objects)
+           ├── Red (Implements Color)
+           ├── Blue (Implements Color)
+
+
+📌 Flow in Java Code Execution
+🔹 Step 1: Client calls FactoryProducer.getFactory("SHAPE").
+🔹 Step 2: FactoryProducer returns ShapeFactory.
+🔹 Step 3: Client calls shapeFactory.getShape("CIRCLE").
+🔹 Step 4: ShapeFactory returns a new Circle object.
+🔹 Step 5: Client calls circle.draw(), and "Drawing a Circle" is printed.
+
+Similarly, if the client calls FactoryProducer.getFactory("COLOR"), the ColorFactory is returned, and colors are created.
+
+🔥 Key Takeaways
+✅ The client is decoupled from object creation.
+✅ Factories ensure objects of the same family are created together.
+✅ Easy to extend by adding new factories without modifying client code.

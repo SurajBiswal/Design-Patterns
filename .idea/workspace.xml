@@ -5,12 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b9ac17d-8e6a-4744-937b-c2d5c78344f8" name="Changes" comment="&quot;starategy&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Factory_Pattern_Color/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory_Pattern_Color/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory_Pattern_Color/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory_Pattern_Color/Shape_factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Factory_Pattern_Color/Squre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/AbstractFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Blue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/ColorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/FactoryProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Red.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Square.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +51,20 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Factory_Pattern_Color.Main">
+  <component name="RunManager" selected="Application.Abstract_Factory_Pattern.Main">
+    <configuration name="Abstract_Factory_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Abstract_Factory_Pattern.Main" />
+      <module name="Design Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Abstract_Factory_Pattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Factory_Pattern_Color.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Factory_Pattern_Color.Main" />
       <module name="Design Patterns" />
@@ -101,6 +119,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Abstract_Factory_Pattern.Main" />
         <item itemvalue="Application.Factory_Pattern_Color.Main" />
         <item itemvalue="Application.Reflection_Singleton" />
         <item itemvalue="Application.Singleton.Main" />
