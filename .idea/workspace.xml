@@ -5,17 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b9ac17d-8e6a-4744-937b-c2d5c78344f8" name="Changes" comment="&quot;starategy&quot;">
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/AbstractFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Blue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/ColorFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/FactoryProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Red.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Abstract_Factory_Pattern/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern_Payment/AllPaymentMethodsImpl/Credit_Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern_Payment/AllPaymentMethodsImpl/UPIPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern_Payment/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern_Payment/PaymentMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strategy_Pattern_Payment/SelectPayMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,25 +28,49 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "SurajBiswal"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/SurajBiswal/Design-Patterns.git",
+    "accountId": "4a87bbe0-adf2-4c3c-9ad5-fb1fb0d5591c"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
   <component name="ProjectId" id="2tZrrJ9xUvAiqBKq7p0umEshRY5" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.Abstract_Factory_Pattern.Main">
+}]]></component>
+  <component name="RunManager" selected="Application.Client">
     <configuration name="Abstract_Factory_Pattern.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Abstract_Factory_Pattern.Main" />
       <module name="Design Patterns" />
@@ -65,12 +84,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Factory_Pattern_Color.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Factory_Pattern_Color.Main" />
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Strategy_Pattern_Payment.Client" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Factory_Pattern_Color.*" />
+          <option name="PATTERN" value="Strategy_Pattern_Payment.AllPaymentMethodsImpl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strategy_Pattern.Main" />
+    <configuration name="Factory_Pattern_Color.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Factory_Pattern_Color.Main" />
       <module name="Design Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strategy_Pattern.*" />
+          <option name="PATTERN" value="Factory_Pattern_Color.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,13 +138,21 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.Abstract_Factory_Pattern.Main" />
         <item itemvalue="Application.Factory_Pattern_Color.Main" />
         <item itemvalue="Application.Reflection_Singleton" />
         <item itemvalue="Application.Singleton.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -135,6 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740570637077</updated>
+      <workItem from="1747221193030" duration="7115000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;starategy&quot;">
       <created>1742752246726</created>
@@ -166,6 +194,9 @@
     </task>
     <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
