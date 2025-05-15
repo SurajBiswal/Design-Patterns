@@ -1,6 +1,6 @@
-package Strategy_Pattern_Payment.AllPaymentMethodsImpl;
+package Strategy.Strategy_Pattern_Payment.AllPaymentMethodsImpl;
 
-import Strategy_Pattern_Payment.PaymentMethod;
+import Strategy.Strategy_Pattern_Payment.PaymentMethod;
 
 public class Credit_Card implements PaymentMethod {
     @Override

@@ -1,4 +1,4 @@
-package Strategy_Pattern;
+package Strategy.Strategy_Pattern;
 
 public class FlyWithRocket implements FlyBehaviour{
     @Override

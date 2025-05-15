@@ -1,6 +1,6 @@
-package Strategy_Pattern_Payment;
+package Strategy.Strategy_Pattern_Payment;
 
-import Strategy_Pattern_Payment.AllPaymentMethodsImpl.UPIPayment;
+import Strategy.Strategy_Pattern_Payment.AllPaymentMethodsImpl.UPIPayment;
 
 public class Client extends SelectPayMethod{
     public static void main(String[] args) {

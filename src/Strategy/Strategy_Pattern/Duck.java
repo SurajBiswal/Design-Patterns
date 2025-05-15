@@ -1,4 +1,4 @@
-package Strategy_Pattern;
+package Strategy.Strategy_Pattern;
 
 abstract class Duck {
     FlyBehaviour flyBehaviour;
